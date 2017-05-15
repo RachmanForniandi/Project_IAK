@@ -9,8 +9,24 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/txt_username"
-        android:text="@string/username"
+        android:id="@+id/text"
+        android:text="Home"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="64dp"
+        android:layout_below="@+id/txt_username"
         android:layout_centerHorizontal="true"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_username" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt_username"
+        android:layout_marginTop="32dp"/>
 </RelativeLayout>
