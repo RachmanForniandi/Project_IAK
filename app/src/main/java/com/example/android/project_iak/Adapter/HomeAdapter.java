@@ -18,11 +18,11 @@ import java.util.ArrayList;
 
 public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
     private ArrayList<HomeModel> mHomemodels;
-    private Context mContext;
+    private Context context;
 
-    public HomeAdapter(ArrayList<HomeModel> mHomemodels, Context mContext) {
+    public HomeAdapter(Context mContext, ArrayList<HomeModel>mHomemodels) {
         this.mHomemodels = mHomemodels;
-        this.mContext = mContext;
+        this.context = mContext;
     }
 
     @Override

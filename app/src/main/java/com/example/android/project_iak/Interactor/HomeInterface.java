@@ -9,5 +9,5 @@ import java.util.ArrayList;
  */
 
 public interface HomeInterface {
-    void showlist(ArrayList<HomeModel>homeModels);
+    void showList(ArrayList<HomeModel>homeModels);
 }

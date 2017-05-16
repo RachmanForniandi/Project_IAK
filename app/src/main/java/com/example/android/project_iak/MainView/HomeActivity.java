@@ -50,10 +50,11 @@ public class HomeActivity extends AppCompatActivity {
 
         mHomeInterface = new HomePresenter(this);
         mHomeModel = new ArrayList<>();
-        mHomeInterface.showlist(mHomeModel);
+        mHomeInterface.showList(mHomeModel);
         initView();
         getData();
     }
+
     private void initView(){
         mRecyclerView = (RecyclerView)findViewById(R.id.mRecyclerView);
         RecyclerView.LayoutManager layoutManager= new LinearLayoutManager(HomeActivity.this);

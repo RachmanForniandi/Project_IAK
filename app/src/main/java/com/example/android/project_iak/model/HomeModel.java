@@ -9,9 +9,9 @@ public class HomeModel {
     private String nama;
     private String alamat;
     private String email;
-    private int noTelp;
+    private String noTelp;
 
-    public HomeModel(String nama, String alamat, String email, int noTelp) {
+    public HomeModel(String nama, String alamat, String email, String noTelp) {
         this.nama = nama;
         this.alamat = alamat;
         this.email = email;
@@ -43,11 +43,11 @@ public class HomeModel {
         this.email = email;
     }
 
-    public int getNoTelp() {
+    public String getNoTelp() {
         return noTelp;
     }
 
-    public void setNoTelp(int noTelp) {
+    public void setNoTelp(String noTelp) {
         this.noTelp = noTelp;
     }
 }
