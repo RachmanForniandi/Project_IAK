@@ -59,7 +59,6 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
             textView3=(TextView)itemView.findViewById(R.id.tv_email);
             textView4=(TextView)itemView.findViewById(R.id.tv_noTelp);
 
-
         }
     }
 }

@@ -6,6 +6,7 @@
     <string name="register">Register</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
+    <string name="list">List Movie</string>
 
     <string name="paddingTop">15dp</string>
     <string name="paddingLeft">15dp</string>
@@ -13,4 +14,12 @@
     <string name="paddingBottom">15dp</string>
 
     <string name="textSize">15sp</string>
+
+    <string name="koneksierror">Tidak Dapat Tersambung Ke Server , Silahkan Cek Internet Anda</string>
+    <string name="loading">Loading Data ...</string>
+
+    <string name="loginsukses">Login Sukses ! Tunggu Sebentar</string>
+    <string name="logininvalid">Maaf, Username atau Password anda SALAH !!</string>
+    <string name="loginempty">Maaf, Username atau Password tidak boleh kosong !!</string>
+
 </resources>

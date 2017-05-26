@@ -10,4 +10,5 @@ import java.util.ArrayList;
 
 public interface HomeInterface {
     void showList(ArrayList<HomeModel>homeModels);
+    void getData();
 }

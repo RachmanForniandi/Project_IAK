@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.project_iak.MainView.HomeActivity">
+    tools:context="com.example.android.project_iak.mainhome.HomeActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -15,6 +15,15 @@
         tools:layout_editor_absoluteY="64dp"
         android:layout_below="@+id/txt_username"
         android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tV_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/list"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
